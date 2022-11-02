@@ -30,14 +30,20 @@ header{
     background-color: aquamarine;
     height: 120px;
     padding: 20px;
-    display: flex;
+    
 }
 
+.navbar{
+    margin: auto;
+    width: 500px;
+    display: flex;
+}
 .bhs{
     background-color: goldenrod;
     flex-basis: 150px;
     border: 2px dashed black;
     text-align: center;
+    height: 80px;
     
 }
 
@@ -49,17 +55,109 @@ header{
 }
 
 .container-blu{
-    height: 600px;
     background-color: blue;
+    padding: 50px;
+    align-content: center;
     display: flex;
+    justify-content: center;
+}
+
+.container-pink{
+    background-color: violet;
+    border: 2px dashed black;
+    flex-basis: 500px;
+    height: 400px;
+}
+
+.container-white{
+    background-color: white;
     padding: 50px;
     align-content: center;
 }
 
-.container-pink{
+.color-container{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    height: 400px;
+}
+.light-pink{
     background-color: lightpink;
     border: 2px dashed black;
-    flex-basis: 150px;
+    flex-basis: 300px;
+   
 }
 
-.container-white:
+.container-azure{
+    background-color: lightskyblue;
+    border: 2px dashed black;
+    flex-basis: 400px;
+    
+
+}
+
+.container-gray{
+    background-color: gray;
+    padding: 50px;
+    align-content: center;
+}
+
+.container-green{
+
+    background-color: green;
+    border: 2px dashed black;
+    flex-basis: 500px;
+    height: 400px;
+}
+
+.container-black{
+    background-color: black;
+    padding: 50px;
+    align-content: center;
+    margin-bottom: 1px;
+
+}
+
+.container-orange{
+    background-color: orangered;
+    border: 2px dashed black;
+    height: 400px;
+    flex-basis: 250px;
+
+}
+
+.container-acquamarine{
+    background-color: aquamarine;
+    border: 2px dashed black;
+    height: 400px;
+    flex-basis: 60px;
+
+}
+
+/* footer */
+
+.black-footer{
+    background-color: black;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 0%;
+}
+
+.container-bottom{
+    background-color: aquamarine;
+    flex-basis: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 5px;
+
+}
+
+span{
+    background-color: pink;
+    border: 1px dashed black;
+    padding: 5px;
+}
