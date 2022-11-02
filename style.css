@@ -1,0 +1,65 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* generics */
+
+body{
+    font-family: sans-serif;
+
+}
+
+
+/* utility */
+
+.container{
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+
+}
+
+/* header */
+header{
+    background-color: aquamarine;
+    height: 120px;
+    padding: 20px;
+    display: flex;
+}
+
+.bhs{
+    background-color: goldenrod;
+    flex-basis: 150px;
+    border: 2px dashed black;
+    text-align: center;
+    
+}
+
+.bhc{
+    flex-basis: 300px;
+    background-color: goldenrod;
+    border: 2px dashed black;
+    text-align: center;
+}
+
+.container-blu{
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    padding: 50px;
+    align-content: center;
+}
+
+.container-pink{
+    background-color: lightpink;
+    border: 2px dashed black;
+    flex-basis: 150px;
+}
+
+.container-white:
